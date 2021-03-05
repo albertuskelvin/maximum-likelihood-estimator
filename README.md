@@ -21,7 +21,7 @@ Since the observations are independent and identically distributed, we get the f
 ## Quickstart
 
 * Download the latest version of <b>EMELY</b> from the releases tab
-* Create the configuration file. See the <a href="https://github.com/albertusk95/maximum-likelihood-estimator/blob/master/src/main/resources/exampleConfig.json">example</a>
+* Create the configuration file. See the <a href="https://github.com/albertuskelvin/maximum-likelihood-estimator/blob/master/src/main/resources/exampleConfig.json">example</a>
 * Run with `java -cp [path_to_application_jar] stats.MLE [path_to_config_file]`
 
 ## Language, Frameworks & Libraries
