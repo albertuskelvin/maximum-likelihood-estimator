@@ -4,6 +4,8 @@ Hi, I'm <b>EMELY</b> (that's how you'd spell MLE),
 
 A collection of maximum likelihood estimators for the fitted distribution parameters given a set of observations.
 
+---
+
 ## Assumption
 
 The observations were collected in independent and identically distributed (i.i.d) manner.
@@ -18,17 +20,23 @@ Since the observations are independent and identically distributed, we get the f
 
 `L(params | x1, x2, x3, ..., xn) = P(x1 | params) . P(x2 | params) . P(x3 | params) ... P(xn | params)`
 
+---
+
 ## Quickstart
 
 * Download the latest version of <b>EMELY</b> from the releases tab
 * Create the configuration file. See the <a href="https://github.com/albertuskelvin/maximum-likelihood-estimator/blob/master/src/main/resources/exampleConfig.json">example</a>
 * Run with `java -cp [path_to_application_jar] stats.MLE [path_to_config_file]`
 
+---
+
 ## Language, Frameworks & Libraries
 
 * Scala 2.11
 * Spark 2.4.4
 * Circe 0.12.0-M3 (JSON library for Scala)
+
+---
 
 ## Configuration
 
@@ -108,6 +116,8 @@ The information of the source data:
 * `format`: supported file formats are `csv` and `parquet`
 * `path`: path to the source data
 
+---
+
 ## Maths Notes
 
 The MLEs are calculated by taking the derivative of the log-likelihood which respects to the parameter and setting it to zero.
@@ -169,6 +179,8 @@ To find the MLE for x, the task becomes solving for L' / (L ln(10)) = 0.
 
 It simply states that L' = 0 since the denominator can't be zero.
 ```
+
+---
 
 ## Author
 
